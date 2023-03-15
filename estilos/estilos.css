@@ -1,0 +1,191 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 40px;
+    line-height: 50px;
+}
+
+.menu > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu > ul > li > a {
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+.menu > ul > li > a:hover {
+    background: transparent;
+    color: rgb(34, 15, 201);
+}
+
+h1, h3, h2{
+    text-align: center;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+}
+
+p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 100;
+   text-align: center;
+}
+p > span{
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+}
+
+.header{
+   background-color: tan;
+}
+
+.menu > ul > li{
+     display: inline-block;
+     padding: 15px;
+     margin: 15px;
+   
+}
+
+ul{
+   text-align: center;
+   
+}
+
+a{
+   text-decoration: none;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   border: 2px solid black;
+   background-color: rgb(101, 101, 111);
+}
+
+.fa-house {
+   margin: 10px;
+}
+
+.fa-suitcase{
+   margin: 10px;
+}
+
+.fa-phone{
+   margin: 10px;
+}
+
+span {
+   color:navy;
+}
+
+.header{
+   width: 100%;
+   height: 100px;
+   border: 1px solid black;
+}
+
+.img1{
+   display: block;
+   margin: 0 auto;
+   height: auto;
+   width: 18%;
+}
+
+.caja2{
+   border: 1px solid black;
+   background-color: rgb(189, 154, 103);
+   width: 100%;
+   height: 500px;
+}
+
+.informacion{
+   border: 1px solid black;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 100;
+}
+
+.images{
+    display: flex;
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.formular{
+   background-color: rgb(69, 69, 82);
+   font-family: 'Roboto', sans-serif;
+   font-weight: 100;
+
+}
+
+#formulario{
+   display: block;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-left: 20px;
+   margin-right: 20px;
+   width: 25%;
+   height: 400px;
+   border: 1px solid black;
+   background-color: rgb(133, 163, 163);
+}
+
+input{
+   padding: 10px;
+   width: 80%;
+   height: auto;
+}
+
+.section{
+   display: flex;
+   justify-content: center;
+   background-color: rgb(67, 74, 72);
+}
+
+.main{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 600px;
+}
+
+.interseccion{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(187, 125, 32) ;
+}
+
+#error{
+   text-align: center;
+   color: red;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 100;
+}
+
+.foohead{
+   border: 1px solid black;
+   width: 100%;
+   height: 100px;
+   background-color: rgb(67, 74, 72);
+}
+.section{
+    border: 1px solid black;
+    background-color: rgb(100, 96, 90);
+    width: 100%;
+    height: 500px;
+}
